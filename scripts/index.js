@@ -108,7 +108,6 @@ function randomizeArrayPositions(arr) {
   var newArr = [];
   var rand;
   var arrLength = arr.length;
-  console.log(arr);
 
   for (var i = 0; i < arrLength; i++) {
     rand = Math.round(Math.random() * (arr.length - 1));
